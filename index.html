@@ -16,33 +16,39 @@
         class="py-2 h-16 w-full flex items-center justify-between border-b border-slate-300"
       >
         <h2 class="font-bold text-xl">Orange Juice</h2>
-        <ul class="flex items-center">
-          <li class="px-5 flex-1">
-            <a href="#">Home</a>
+        <ul class="flex items-center text-slate-600">
+          <li class="px-5 flex-1 hover:text-yellow-500">
+            <a class="hover:text-yellow-500" href="#">Home</a>
+          </li>
+          <li class="px-5 flex-1 hover:text-yellow-500">
+            <a class="hover:text-yellow-500" href="#">Products</a>
+          </li>
+          <li class="px-5 flex-1 hover:text-yellow-500">
+            <a class="hover:text-yellow-500" href="#">Benefits</a>
           </li>
           <li class="px-5 flex-1">
-            <a href="#">Products</a>
-          </li>
-          <li class="px-5 flex-1">
-            <a href="#">Benefits</a>
-          </li>
-          <li class="px-5 flex-1">
-            <a href="#">About</a>
+            <a class="hover:text-yellow-500" href="#">About</a>
           </li>
         </ul>
         <button
-          class="text-sm border border-slate-300 px-4 py-2 font-bold rounded"
+          class="text-sm border border-slate-300 px-4 py-2 font-bold rounded hover:bg-slate-100"
         >
           Sign In
         </button>
       </nav>
       <header class="flex">
-        <div class="flex-1">
-          <h1 class="text-6xl">
-            I love
-            <br />
-            <span class="text-yellow-500 font-extrabold">Orange Juice</span>
-          </h1>
+        <div class="flex-1 justify-center flex flex-col">
+          <div class="w-4/5">
+            <h1 class="text-6xl">
+              I love
+              <br />
+              <span class="text-yellow-500 font-extrabold">Orange Juice</span>.
+            </h1>
+            <p class="text-slate-500 font-semibold mt-10">
+              Orange juice is really good because it takes like oranges and it's super sweet, but you can drink it.
+            </p>
+            <button class="px-8 py-4 rounded border border-slate-300 font-bold font-xl mt-10 hover:bg-slate-100">Explore &#10230;</button>
+          </div>
         </div>
         <div class="hidden md:block flex-1">
           <img
